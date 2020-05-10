@@ -18,7 +18,7 @@ body {
   height: 8px;
 }
 *::-webkit-scrollbar-thumb {
-  background: #49b1f5;
+  background: #8e8cd8;
 }
 *::-webkit-scrollbar-track {
   background-color: transparent;
@@ -77,7 +77,7 @@ hr {
   position: relative;
   margin: 2rem auto;
   width: calc(100% - 4px);
-  border: 2px dashed #a4d8fa;
+  border: 2px dashed #c7c6ec;
 }
 hr:hover:before {
   left: calc(95% - 20px);
@@ -87,7 +87,7 @@ hr:before {
   top: -10px;
   left: 5%;
   z-index: 1;
-  color: #49b1f5;
+  color: #8e8cd8;
   content: '\f0c4';
   font-style: normal;
   font-variant: normal;
@@ -125,7 +125,7 @@ table td {
   vertical-align: middle;
 }
 *::selection {
-  background: #00c4b6;
+  background: #8e8cd8;
   color: #f7f7f7;
 }
 #nav #site_title,
@@ -163,7 +163,7 @@ table td {
   float: right;
 }
 .button--primary {
-  color: #ff7242;
+  color: #f85536;
 }
 .button--animated {
   -webkit-transition-duration: 1s;
@@ -184,7 +184,7 @@ table td {
   bottom: 0;
   left: 0;
   z-index: -1;
-  background: #ff7242;
+  background: #f85536;
   content: '';
   -webkit-transition-timing-function: ease-out;
   -moz-transition-timing-function: ease-out;
@@ -1900,7 +1900,7 @@ blockquote footer cite:before {
   position: relative;
   z-index: 1;
   display: block;
-  background-color: #49b1f5;
+  background-color: #8e8cd8;
   color: #fff;
   line-height: 1.6rem;
 }
@@ -1921,7 +1921,7 @@ blockquote footer cite:before {
   padding: 0 0.1rem;
 }
 #aside_content .card-tag-cloud a:hover {
-  color: #49b1f5 !important;
+  color: #8e8cd8 !important;
 }
 #aside_content .card-recent-post .aside-recent-item {
   margin: 10px 0 -15px;
@@ -1974,7 +1974,7 @@ blockquote footer cite:before {
   -webkit-box-orient: vertical;
 }
 #aside_content .card-recent-post .aside-recent-item > .aside-recent-post > a .aside-post-title .aside-post_title:hover {
-  color: #49b1f5 !important;
+  color: #8e8cd8 !important;
 }
 #aside_content .card-recent-post .aside-recent-item > .aside-recent-post > a .aside-post-title.no-aside-cover .aside-post_title {
   height: auto;
@@ -1998,7 +1998,7 @@ blockquote footer cite:before {
 #aside_content .card-archives ul.card-archive-list > .card-archive-list-item:hover,
 #aside_content .card-categories ul.card-category-list > .card-category-list-item:hover {
   padding: 0.15rem 0.85rem;
-  background-color: #49b1f5;
+  background-color: #8e8cd8;
 }
 #aside_content .card-archives ul.card-archive-list > .card-archive-list-item a,
 #aside_content .card-categories ul.card-category-list > .card-category-list-item a {
@@ -2111,7 +2111,7 @@ blockquote footer cite:before {
   position: absolute;
   top: 0;
   left: 0;
-  background: #49b1f5;
+  background: #8e8cd8;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out;
@@ -2132,14 +2132,14 @@ blockquote footer cite:before {
   line-height: 1.2rem;
 }
 .category-content ul li:hover:before {
-  border-color: #ff7242;
+  border-color: #f85536;
 }
 .category-content ul li:before {
   top: 10px;
   margin-left: 0.45rem;
   width: 0.3rem;
   height: 0.3rem;
-  border: 0.15rem solid #49b1f5;
+  border: 0.15rem solid #8e8cd8;
   border-radius: 0.3rem;
   background: transparent;
   content: '';
@@ -2181,7 +2181,7 @@ blockquote footer cite:before {
   bottom: 0;
   left: 0;
   z-index: -1;
-  background: #49b1f5;
+  background: #8e8cd8;
   content: '';
   -webkit-transition-timing-function: ease-out;
   -moz-transition-timing-function: ease-out;
@@ -2263,7 +2263,7 @@ blockquote footer cite:before {
 }
 #footer {
   position: relative;
-  background: #49b1f5;
+  background: #8e8cd8;
   background-attachment: local;
   background-position: bottom;
   -webkit-background-size: cover;
@@ -2281,7 +2281,7 @@ blockquote footer cite:before {
   cursor: pointer;
 }
 #footer-wrap a:hover {
-  color: #49b1f5;
+  color: #8e8cd8;
   text-decoration: underline;
 }
 #footer-wrap .footer-separator {
@@ -2294,7 +2294,7 @@ blockquote footer cite:before {
 #nav {
   position: relative;
   width: 100%;
-  background-color: #49b1f5;
+  background-color: #8e8cd8;
   background-attachment: local;
   background-position: center center;
   -webkit-background-size: cover;
@@ -2423,7 +2423,7 @@ blockquote footer cite:before {
   transition: all 0.3s ease-out;
 }
 #nav.post-bg #post-info #post-meta a:hover {
-  color: #49b1f5;
+  color: #8e8cd8;
   text-decoration: underline;
 }
 #page-header {
@@ -2486,7 +2486,7 @@ blockquote footer cite:before {
 #page-header.fixed a:hover,
 #page-header.fixed #site-name:hover,
 #page-header.fixed .toggle-menu:hover {
-  color: #49b1f5;
+  color: #8e8cd8;
 }
 #page-header.visible {
   -webkit-transition: all 0.5s;
@@ -2546,7 +2546,7 @@ blockquote footer cite:before {
   z-index: -1;
   width: 0;
   height: 3px;
-  background-color: #80c8f8;
+  background-color: #b0aee4;
   content: '';
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -2585,7 +2585,7 @@ blockquote footer cite:before {
   list-style: none;
 }
 #page-header .menus_items .menus_item .menus_item_child li:hover {
-  background: #49b1f5;
+  background: #8e8cd8;
 }
 #page-header .menus_items .menus_item .menus_item_child li a {
   display: inline-block;
@@ -2753,7 +2753,7 @@ blockquote footer cite:before {
   width: 70%;
 }
 #mobile-sidebar #mobile-sidebar-menus .menus_items span:hover {
-  color: #49b1f5;
+  color: #8e8cd8;
 }
 #mobile-sidebar #mobile-sidebar-menus .menus_items .menus-expand {
   position: absolute;
@@ -2920,7 +2920,7 @@ blockquote footer cite:before {
   -webkit-line-clamp: 2;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title:hover {
-  color: #49b1f5 !important;
+  color: #8e8cd8 !important;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
   font-size: 95%;
@@ -2951,7 +2951,7 @@ blockquote footer cite:before {
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a.article-meta__categories:hover,
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a.article-meta__tags:hover {
-  color: #49b1f5 !important;
+  color: #8e8cd8 !important;
   text-decoration: underline;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .content {
@@ -2973,7 +2973,7 @@ blockquote footer cite:before {
   transition: all 0.3s;
 }
 .tag-cloud a:hover {
-  color: #ff7242 !important;
+  color: #f85536 !important;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
@@ -3011,7 +3011,7 @@ blockquote footer cite:before {
 .article-sort {
   margin-left: 0.5rem;
   padding-left: 1rem;
-  border-left: 2px solid #aadafa;
+  border-left: 2px solid #d9d8f2;
 }
 .article-sort-title {
   position: relative;
@@ -3022,7 +3022,7 @@ blockquote footer cite:before {
   line-height: 1;
 }
 .article-sort-title:hover:before {
-  border-color: #ff7242;
+  border-color: #f85536;
 }
 .article-sort-title:before {
   position: absolute;
@@ -3031,7 +3031,7 @@ blockquote footer cite:before {
   z-index: 1;
   width: 0.5rem;
   height: 0.5rem;
-  border: 0.25rem solid #49b1f5;
+  border: 0.25rem solid #8e8cd8;
   border-radius: 0.5rem;
   background: #fff;
   content: '';
@@ -3049,7 +3049,7 @@ blockquote footer cite:before {
   z-index: 0;
   width: 0.1rem;
   height: 1.3rem;
-  background: #aadafa;
+  background: #d9d8f2;
   content: '';
 }
 .article-sort-item {
@@ -3064,7 +3064,7 @@ blockquote footer cite:before {
   transition: all 0.2s ease-in-out;
 }
 .article-sort-item:hover:before {
-  border-color: #ff7242;
+  border-color: #f85536;
 }
 .article-sort-item:before {
   position: absolute;
@@ -3072,7 +3072,7 @@ blockquote footer cite:before {
   left: calc(-1rem - 17px);
   width: 0.3rem;
   height: 0.3rem;
-  border: 0.15rem solid #49b1f5;
+  border: 0.15rem solid #8e8cd8;
   border-radius: 0.3rem;
   background: #fff;
   content: '';
@@ -3112,11 +3112,11 @@ blockquote footer cite:before {
   font-size: 1rem;
 }
 .article-sort-item.year:hover:before {
-  border-color: #49b1f5;
+  border-color: #8e8cd8;
 }
 .article-sort-item.year:before {
   top: 0.7rem;
-  border-color: #ff7242;
+  border-color: #f85536;
 }
 .article-sort-item__time {
   padding-left: 0.4rem;
@@ -3136,7 +3136,7 @@ blockquote footer cite:before {
   -webkit-box-orient: vertical;
 }
 .article-sort-item__title:hover {
-  color: #49b1f5 !important;
+  color: #8e8cd8 !important;
   -webkit-transform: translateX(20px);
   -moz-transform: translateX(20px);
   -o-transform: translateX(20px);
@@ -3283,7 +3283,7 @@ blockquote footer cite:before {
   cursor: pointer;
 }
 #pagination .page-number.current {
-  background: #00c4b6;
+  background: #8e8cd8;
   color: #fff;
   cursor: default;
 }
@@ -3409,7 +3409,7 @@ blockquote footer cite:before {
 #article-container.post-content h6:before {
   position: absolute;
   top: calc(50% - 0.35rem);
-  color: #f47466;
+  color: #8e8cd8;
   content: '\f0c1';
   font-style: normal;
   font-variant: normal;
@@ -3430,7 +3430,7 @@ blockquote footer cite:before {
 #article-container.post-content h4:hover:before,
 #article-container.post-content h5:hover:before,
 #article-container.post-content h6:hover:before {
-  color: #49b1f5;
+  color: #8e8cd8;
 }
 #article-container.post-content h1 {
   padding-left: 1.4rem;
@@ -3546,7 +3546,7 @@ blockquote footer cite:before {
   position: absolute;
   top: 0;
   left: 0;
-  background: #49b1f5;
+  background: #8e8cd8;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out;
@@ -3567,14 +3567,14 @@ blockquote footer cite:before {
   line-height: 1.2rem;
 }
 #article-container.post-content ul > li:hover:before {
-  border-color: #ff7242;
+  border-color: #f85536;
 }
 #article-container.post-content ul > li:before {
   top: 10px;
   margin-left: 0.45rem;
   width: 0.3rem;
   height: 0.3rem;
-  border: 0.15rem solid #49b1f5;
+  border: 0.15rem solid #8e8cd8;
   border-radius: 0.3rem;
   background: transparent;
   content: '';
@@ -3592,7 +3592,7 @@ a {
   overflow-wrap: break-word;
 }
 a:hover {
-  color: #49b1f5;
+  color: #8e8cd8;
 }
 a.fancybox {
   outline: none;
@@ -3704,9 +3704,9 @@ img {
   margin: 0.4rem 0.4rem 0.4rem 0;
   padding: 0 0.6rem;
   width: fit-content;
-  border: 1px solid #49b1f5;
+  border: 1px solid #8e8cd8;
   border-radius: 0.6rem;
-  color: #49b1f5;
+  color: #8e8cd8;
   font-size: 12px;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
@@ -3716,7 +3716,7 @@ img {
   transition: all 0.2s ease-in-out;
 }
 .layout_post .tag_share .post-meta__tags:hover {
-  background: #49b1f5;
+  background: #8e8cd8;
   color: #fff;
 }
 .layout_post .tag_share .post_share {
@@ -3753,7 +3753,7 @@ img {
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 0.8rem;
-  background: #49b1f5;
+  background: #8e8cd8;
   content: '';
 }
 .layout_post .post-copyright:after {
@@ -3771,7 +3771,7 @@ img {
   box-shadow: 0 0 8px 0 rgba(232,237,250,0.6), 0 2px 4px 0 rgba(232,237,250,0.5);
 }
 .layout_post .post-copyright .post-copyright-meta {
-  color: #49b1f5;
+  color: #8e8cd8;
   font-weight: bold;
 }
 .layout_post .post-copyright .post-copyright-info {
@@ -3785,7 +3785,7 @@ img {
   text-decoration: none;
 }
 #article-container a {
-  color: #49b1f5;
+  color: #99a9bf;
 }
 #article-container a:hover {
   text-decoration: underline;
@@ -3907,7 +3907,7 @@ img {
   z-index: 1;
   display: inline-block;
   width: 100px;
-  background: #49b1f5;
+  background: #8e8cd8;
   color: #fff;
   text-align: center;
   line-height: 36px;
@@ -4021,7 +4021,7 @@ img {
   margin-bottom: 2px;
   width: 30px;
   height: 30px;
-  background-color: #49b1f5;
+  background-color: #8e8cd8;
   color: #fff;
   text-align: center;
   font-size: 16px;
@@ -4031,7 +4031,7 @@ img {
 #rightside > div > i:hover,
 #rightside > div > a:hover,
 #rightside > div > div:hover {
-  background-color: #ff7242;
+  background-color: #f85536;
 }
 #rightside #rightside_config i {
   -webkit-animation: avatar_turn_around 2s linear infinite;
@@ -4494,7 +4494,7 @@ figure.gallery-group .gallery-group-name:after {
   z-index: 1;
   display: inline-block;
   padding: 0 1rem;
-  background: #49b1f5;
+  background: #8e8cd8;
   color: #fff !important;
   text-align: center;
   cursor: pointer;
